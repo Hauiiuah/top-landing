@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  border: 1px solid greenyellow;
 }
 body {
   display: flex;
@@ -27,6 +25,16 @@ body {
   padding: 40px;
 }
 
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 500;
+  height: 100px;
+}
 .action-header {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
