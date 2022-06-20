@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+
   border: 1px solid greenyellow;
 }
 body {
@@ -17,7 +17,41 @@ body {
   height: 150px;
 }
 
+.call-to-action {
+  background-color: #3882f6;
+  margin: 100px;
+  border-radius: 10px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.action-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.action-description {
+  font-size: 20px;
+}
+.action-content {
+  display: flex;
+  flex-direction: column;
+}
+.action-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  padding: 5px 25px;
+  border-radius: 8px;
+  flex-wrap: nowrap;
+  margin-block: 10px;
+}
+
 .citate-section {
+  font-family: 'Roboto', sans-serif;
   background-color: #e5e7eb;
   padding-inline: 15%;
   padding-block: 120px;
@@ -37,6 +71,7 @@ body {
 }
 
 .info-header {
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 900;
   margin-block: 50px;
@@ -77,6 +112,7 @@ body {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  font-family: 'Roboto', sans-serif;
 }
 .hero {
   display: flex;
@@ -104,6 +140,7 @@ body {
 
 .header-logo,
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: #f9faf8;
 }
